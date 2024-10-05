@@ -9,7 +9,7 @@ string getComputerChoice() {
 
     int choice = distrib(gen);
     switch (choice) {
-        case 0: return "rock";
+        case 0: return "rock"; 
         case 1: return "paper";
         case 2: return "scissors";
         default: return ""; // Should never reach here
@@ -55,6 +55,6 @@ int main()
     else
     cout << "GAME TIED :/";
 
-
+    // test 101;
 
 }
